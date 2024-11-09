@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Karl Scieneaux | WDD 130</title>
+        <meta name="description" content="Github Repository made by Karl Scieneaux">
+        <meta name="author" content="Karl Scieneaux">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="wwr/">Rafting Site</a>
+                <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
+            </nav>
+        </header>
+        <main> {
+            
+        }
+            <h1>Karl Scieneaux WWD 130</h1>
+            <img src="images/profile.png" alt="Hello, my name is Karl Scieneaux" width="200">
+            <p>Hello, My name is Karl Scieneaux. I am from Fort Worth Texas. I am majoring in CIT and am on track to graduate in April. I enjoy playing games with my siblings.</p>
+        </main>
+       
+        <footer>
+            <p>2024 Karl Scieneaux Fort Worth, Texas</p>
+        </footer>
+    </body>
+</html>
