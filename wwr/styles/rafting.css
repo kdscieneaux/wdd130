@@ -1,10 +1,24 @@
 :root {
     --heading-background-color: #f06;
     --heading-text-color: #333;
-    --heading-font: 'Roboto', Helvetica, sans-serif;
+    --heading-font: 'Roboto', sans-serif;
+    --text-font: 'Lato', sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
-    
+
+    /*w3 Create variables for color palatte */
+    --primary-color: #370031;
+    --secondary-color: #832232;
+    --accent1-color: #CE8964;
+    --accent2-color: #EAF27C;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--secondary-color);
 
 }
 
@@ -23,16 +37,27 @@ aside {
 
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--text-font);
 }
 
 
 h1, h2, h3 {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--heading-font);
 }
 p{
-    font-family: "Lato", sans-serif;
+    font-family: var(--text-font);
 }
+
+nav { 
+    background-color: var(--accent1-color);
+}
+
+nav a {
+    background-color: var(--accent1-color);
+}
+
+
+
 
 /* CLASS SELECTORS*/
 .roboto-thin {
