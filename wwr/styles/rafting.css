@@ -1,8 +1,11 @@
 :root {
-    --heading-background-color: #f06;
-    --heading-text-color: #333;
+    --heading-background-color: #EAF27C;
+    --heading-text-color: #370031;
+    
+    /* w3 set fonts for heading and text from google fonts selected */
     --heading-font: 'Roboto', sans-serif;
     --text-font: 'Lato', sans-serif;
+
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 
@@ -12,8 +15,8 @@
     --accent1-color: #CE8964;
     --accent2-color: #EAF27C;
 
-
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -25,7 +28,6 @@
 h1 {
     background-color: var(--heading-background-color);
     color: var(--heading-text-color);
-    font-family: var(--heading-font);
     padding: var(--padding);
 }
 
@@ -38,14 +40,19 @@ aside {
 
 body{
     font-family: var(--text-font);
+    /* w3 set max width of page */
+    max-width: 850px;
 }
 
 
 h1, h2, h3 {
     font-family: var(--heading-font);
+    color: var(--accent1-color);
 }
+
 p{
     font-family: var(--text-font);
+    color: var(--primary-color);
 }
 
 nav { 
@@ -56,29 +63,82 @@ nav a {
     background-color: var(--accent1-color);
 }
 
+footer, footer p{
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+}
 
+footer nav {
+    background-color: var(--accent1-color);
+}
+footer nav a {
+    background-color: var(--accent1-color);
+    text-decoration: none;
+}
 
 
 /* CLASS SELECTORS*/
+.hero {
+    background-color: var(--secondary-color);
+    position: relative;
+    margin: 10px auto;
+    max-width: 600px;
+    background-size: 50%
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    vertical-align: middle;
+    top: 3%;
+    left: 40%;
+    color: var(--primary-color);
+    background: radial-gradient(#eee, var(--secondary-color));
+}
+
+.hero article {
+    /* make article position within hero class at specific location */
+    position: absolute;
+    width: 60%;
+    bottom: 2%;
+    right: 5px;
+}
+
+.hero-image {
+    /* set size of article image */
+    width: 30%;
+    height: auto;
+    float: right;
+}
+
+.hero p{
+    color: var(--primary-color);
+    background: radial-gradient(#eee, var(--secondary-color));
+}
+
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
+}
   
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
+.roboto-regular {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
 
+.roboto-bold {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+  
 .lato-thin {
   font-family: "Lato", sans-serif;
   font-weight: 100;
