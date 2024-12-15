@@ -25,10 +25,19 @@
 
 }
 
+
+
+
+
 h1 {
     background-color: var(--heading-background-color);
     color: var(--heading-text-color);
     padding: var(--padding);
+}
+
+h2{
+    text-align: center;
+    padding-top: 2em;
 }
 
 aside {
@@ -42,8 +51,21 @@ body{
     font-family: var(--text-font);
     /* w3 set max width of page */
     max-width: 850px;
+    padding: 1em;
 }
 
+header {
+	/* margin: 1rem auto; */
+	display: grid;
+	grid-template-columns: 120px 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	/* max-width: 1000px; */
+}
+header, footer{
+    max-width:1000px;
+    margin: 0 auto;
+}
 
 h1, h2, h3 {
     font-family: var(--heading-font);
@@ -57,25 +79,70 @@ p{
 
 nav { 
     background-color: var(--accent1-color);
+    display: flex;
 }
 
 nav a {
     background-color: var(--accent1-color);
+    display: inline;
 }
 
-footer, footer p{
+footer {
+
+    display: grid;
+	grid-template-columns: 60px 1fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+    background-color: var(--accent1-color);
+
+}
+
+
+
+
+
+footer p{
     color: var(--primary-color);
     background-color: var(--accent1-color);
+    grid-column: 2/3;
 }
 
 footer nav {
     background-color: var(--accent1-color);
+    display: flex;
+
 }
 footer nav a {
     background-color: var(--accent1-color);
     text-decoration: none;
+    display: flex;
+    position: relative;
+    grid-column: 3/4;
 }
 
+
+figure {
+    border: thin  solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+      
+/* img {
+    max-width: 220px;
+    max-height: 150px;
+} */
+      
+figcaption {
+    background-color: #370031;
+    color: #CE8964;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
 
 /* CLASS SELECTORS*/
 .hero {
@@ -100,7 +167,7 @@ footer nav a {
     color: var(--primary-color);
     background: radial-gradient(#eee, var(--secondary-color));
 }
-
+              
 .hero article {
     /* make article position within hero class at specific location */
     position: absolute;
@@ -121,6 +188,51 @@ footer nav a {
     background: radial-gradient(#eee, var(--secondary-color));
 }
 
+/* w4 additions*/
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+.navigation {
+	display: flex;
+	/* flex-wrap: wrap; */
+    grid-template-columns: 120px 1fr;
+	list-style: none;
+	/* padding: 0; */
+}
+
+ .navigation li {
+	/* flex: 1 1 auto; */
+    font-size: 1em;
+} 
+
+.navigation a {
+	display: inline-block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.flexbox-item{
+    background-color: var(--secondary-color);
+    padding: 5px;
+}
+/* fonts for wwr*/
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -156,3 +268,5 @@ font-style: normal;
   font-weight: 400;
   font-style: italic;
 }
+
+

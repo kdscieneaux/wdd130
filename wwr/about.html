@@ -17,16 +17,14 @@
 
 <body>
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/R.jpeg" alt="Dry Oar Logo"
-            width="100"
-            height="100">
-        </a>
+        <img src="images/R.jpeg" alt="Dry Oar Logo" width="100">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
             
     </header>
@@ -55,23 +53,71 @@
         </div>
 
         <!-- week 3 section 1 -->
+         <!-- week 4 updates to history section make flex box container with 3 items in it -->
         <section >
+            
             <h2>History</h2>
-            <p>A brief history of company. A brief history of company. A brief history of company. A brief history of company. 
-                A brief history of company. A brief history of company. A brief history of company. A brief history of company.
-                A brief history of company. A brief history of company.
-            </p>
+            <div class="flexbox-container">
+                <div class="flexbox-item">
+                    <p>A brief history of company. A brief history of company. A brief history of company. A brief history of company. 
+                        A brief history of company. A brief history of company. A brief history of company. A brief history of company.
+                        A brief history of company. A brief history of company. A brief history of company. A brief history of company. 
+                        A brief history of company. A brief history of company.A brief history of company. A brief history of company.
+                    </p>
+                </div>
+                <div class="flexbox-item">
+                    <img src="images/hero.jpg" alt="history" width="150">
+                </div>
+                <div class="flexbox-item">
+                    <p>A brief history of company. A brief history of company. A brief history of company. A brief history of company. 
+                        A brief history of company. A brief history of company. A brief history of company. A brief history of company.
+                        A brief history of company. A brief history of company.
+                    </p>
+                </div>
+            </div>
         </section>
 
         <!-- week 3 section 2 -->
         <section>
+            <!--week 4 converting to figures-->
             <h2>Adventure Awaits You</h2>
-            <img src="images/rapids.jpg" alt="rafting boat">
+            <!-- <img src="images/rapids.jpg" alt="rafting boat">
             <img src="images/camping.jpg" alt="camping">
             <img src="images/mountains.jpg" alt="Misty mountains">
             <img src="images/rafting65_600.jpg" alt="rafting">
-            <img src="images/rivers.jpg" alt="rivers">
-            
+            <img src="images/rivers.jpg" alt="rivers"> -->
+            <div class="flexbox-container">
+                <div class="flexbox-item">
+                    <figure>
+                        <img src="images/rapids.jpg" alt="rafting boat", width="100">
+                        <figcaption>rafting boat</figcaption>
+                    </figure>
+                </div>
+                <div class="flexbox-item">
+                    <figure>
+                        <img src="images/camping.jpg" alt="camping" width="100">
+                        <figcaption>camping</figcaption>
+                    </figure>
+                </div>
+                <div class="flexbox-item">
+                    <figure>
+                        <img src="images/mountains.jpg" alt="Misty mountains" width="100">
+                        <figcaption>Misty mountains</figcaption>
+                    </figure>
+                </div>
+                <div class="flexbox-item">
+                    <figure>
+                        <img src="images/rafting65_600.jpg" alt="rafting" width="100">
+                        <figcaption>rafting</figcaption>
+                    </figure>
+                </div>
+                <div class="flexbox-item">
+                    <figure>
+                        <img src="images/rivers.jpg" alt="rivers" width="100">
+                        <figcaption>rivers</figcaption>
+                    </figure>
+                </div>
+            </div>
         </section>
 
     
@@ -81,15 +127,15 @@
         <p>&copy; 2024 - Dry Oar | Karl Scieneaux</p>
 
         <!-- week 3 social media icons -->
-            <a href="https://facebook.com" target= "_blank"> 
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank"> 
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
+        <!-- week 4 added navigation formatting -->
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://facebook.com" target= "_blank"> <img src="images/facebook.png" alt="fb icon" width="30"> </a></li>
+                <li><a href="https://twitter.com" target="_blank"> <img src="images/twitter.png" alt="twitter icon" width="30"> </a></li>
+                <li><a href="https://instagram.com" target="_blank"> <img src="images/instagram.png" alt="instagram icon" width="30"> </a></li>
+            </ul>
+        </nav>
+    
     </footer>
     
 </body>
