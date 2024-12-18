@@ -30,10 +30,10 @@
     </header>
 
     <main>
-        <h1>Contact Dry Oar</h1>
-    <!--display employee pictures/titles-->
-    <!-- <section> -->
-      
+        <!-- header for contact page -->
+        <h1>Contact Dry Oar - We would love to hear from you!</h1>
+
+        <!--display employee pictures/titles-->
         <div class="flexbox-container">
             <div class="flexbox-item">
                 <figure>
@@ -54,72 +54,65 @@
                 </figure>
             </div>
         </div>
-    <!-- </section> -->
 
+        <!-- company info -->
+        <p> Dry Oar </p>
+        <p> 9300 White Settlement Rd </p>
+        <p> Fort Worth, TX 76108 </p>
+        <p> 817-888-8888 </p>
+        <p> dryoar@mydomain.com</p><br>
 
-    <!-- company info -->
-    <p> Dry Oar </p>
-    <p> 9300 White Settlement Rd </p>
-    <p> Fort Worth, TX 76108 </p>
-    <p> 817-888-8888 </p>
-    <p> dryoar@mydomain.com</p><br>
+        <!-- google map -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d55714.56175126419!2d-95.57858069448571!3d29.218844695405227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734229413827!5m2!1sen!2sus" 
+        width="300" height="225" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
 
-    <!-- google map -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d55714.56175126419!2d-95.57858069448571!3d29.218844695405227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734229413827!5m2!1sen!2sus" 
-    width="300" height="225" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <br>
-
-    <form>
-        
-        <fieldset>
-            <div class="form1 q1">
-                <!--  user name input box  -->
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name">
-            </div>
-
-            <div class="form1 q1">
-                <!--  user email input box  -->
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email">
-            </div>
-        </fieldset>
-
-        <fieldset>
-            <div class="form1 qtype3">
-                <!--  radio buttons for inquiry  -->
-                <input type="radio" id="geninq" name="opt" value="geninq" >
-                <label for="geninq">  General Inquiry</label>
-            </div>
-            <div class="form1 qtype3">
-                <input type="radio" id="resq" name="opt" value="resq">
-                <label for="resq">  Resevation Question</label>
-            </div>
-            <div class="form1 qtype3">
-                <input type="radio" id="websug" name="opt" value="websug">
-                <label for="websug">  Website Suggestion</label>  
-            </div>
+        <form>
             
-            
-            <!-- message detail box -->
-            <label for="feedback">Message Details:</label>
-            <textarea id="feedback" name="feedback" rows="5" cols= "40" placeholder="Type your message here..."></textarea>
+            <fieldset>
+                <div class="form1 q1">
+                    <!--  user name input box  -->
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
 
-            <!-- newsletter check box -->
-            <div class="form1 q2">
-                <label for="news">Please subscribe me to monthly newsletter</label>
-                <input type="checkbox" id="news" name="news">
-            </div>
-            <!-- send request button -->
-            <button type="button">Contact us now!</button>
-        </fieldset>
+                <div class="form1 q1">
+                    <!--  user email input box  -->
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                </div>
+            </fieldset>
 
+            <fieldset>
+                <div class="form1 qtype3">
+                    <!--  radio buttons for inquiry  -->
+                    <input type="radio" id="geninq" name="opt" value="geninq" >
+                    <label for="geninq">  General Inquiry</label>
+                </div>
+                <div class="form1 qtype3">
+                    <input type="radio" id="resq" name="opt" value="resq">
+                    <label for="resq">  Resevation Question</label>
+                </div>
+                <div class="form1 qtype3">
+                    <input type="radio" id="websug" name="opt" value="websug">
+                    <label for="websug">  Website Suggestion</label>  
+                </div>
+                
+                
+                <!-- message detail box -->
+                <label for="feedback">Message Details:</label>
+                <textarea id="feedback" name="feedback" rows="5" cols= "40" placeholder="Type your message here..."></textarea>
 
+                <!-- newsletter check box -->
+                <div class="form1 q2">
+                    <label for="news">Please subscribe me to monthly newsletter</label>
+                    <input type="checkbox" id="news" name="news">
+                </div>
+                <!-- send request button -->
+                <input type="submit" value="Contact us now!">
+            </fieldset>
 
-    </form>
-
-
-
+        </form>
     </main>
 
     <footer>
