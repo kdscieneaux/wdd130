@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dry Oar</title>
+    <meta name="description" content="Contact Us page for Dry Oar white water rafting web page">
+    <meta name="author" content="Karl Scieneaux">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <!--get selected google fonts--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,400&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/R.jpeg" alt="Dry Oar Logo" width="100">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+            
+    </header>
+
+    <main>
+
+    <!--display employee pictures/titles-->
+    <!-- <section> -->
+      
+        <div class="flexbox-container">
+            <div class="flexbox-item">
+                <figure>
+                    <img src="images/employee1.png" alt="Reservations" width="100">
+                    <figcaption>Reservations</figcaption>
+                </figure>
+            </div>
+            <div class="flexbox-item">
+                <figure>
+                    <img src="images/employee2.png" alt="Guide" width ="100">
+                    <figcaption>Guide</figcaption>
+                </figure>
+            </div>
+            <div class="flexbox-item">
+                <figure>
+                    <img src="images/employee3.png" alt="Safety" width ="100">
+                    <figcaption>Safety</figcaption>
+                </figure>
+            </div>
+        </div>
+    <!-- </section> -->
+
+
+    <!-- company info -->
+    <p> Dry Oar </p>
+    <p> 9300 White Settlement Rd </p>
+    <p> Fort Worth, TX 76108 </p>
+    <p> 817-888-8888 </p>
+    <p> dryoar@mydomain.com</p><br>
+
+    <!-- google map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d55714.56175126419!2d-95.57858069448571!3d29.218844695405227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734229413827!5m2!1sen!2sus" 
+    width="300" height="225" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+
+    <form>
+        
+        <fieldset>
+            <div class="form1 q1">
+                <!--  user name input box  -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="form1 q1">
+                <!--  user email input box  -->
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div class="form1 qtype3">
+                <!--  radio buttons for inquiry  -->
+                <input type="radio" id="geninq" name="opt" value="geninq" >
+                <label for="geninq">  General Inquiry</label>
+            </div>
+            <div class="form1 qtype3">
+                <input type="radio" id="resq" name="opt" value="resq">
+                <label for="resq">  Resevation Question</label>
+            </div>
+            <div class="form1 qtype3">
+                <input type="radio" id="websug" name="opt" value="websug">
+                <label for="websug">  Website Suggestion</label>  
+            </div>
+            
+            
+            <!-- message detail box -->
+            <label for="feedback">Message Details:</label>
+            <textarea id="feedback" name="feedback" rows="5" cols= "40" placeholder="Type your message here..."></textarea>
+
+            <!-- newsletter check box -->
+            <div class="form1 q2">
+                <label for="news">Please subscribe me to monthly newsletter</label>
+                <input type="checkbox" id="news" name="news">
+            </div>
+            <!-- send request button -->
+            <button type="button">Send Request</button>
+        </fieldset>
+
+
+
+    </form>
+
+
+
+    </main>
+
+    <footer>
+        <!-- week 3 footer with copyright, year, company name and my name -->
+        <p>&copy; 2024 - Dry Oar | Karl Scieneaux</p>
+
+        <!-- week 3 social media icons -->
+        <!-- week 4 added navigation formatting -->
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://facebook.com" target= "_blank"> <img src="images/facebook.png" alt="fb icon" width="30"> </a></li>
+                <li><a href="https://twitter.com" target="_blank"> <img src="images/twitter.png" alt="twitter icon" width="30"> </a></li>
+                <li><a href="https://instagram.com" target="_blank"> <img src="images/instagram.png" alt="instagram icon" width="30"> </a></li>
+                <li><a href="contactwireframe.html"> <img src="images/contactwireframe.jpg" alt="wireframe icon" width="30" height="30"> </a></li>
+            </ul>
+        </nav>
+    
+    </footer>
+    
+</body>
+</html>
