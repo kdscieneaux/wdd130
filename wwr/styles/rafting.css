@@ -115,14 +115,15 @@ input, textarea{
 
 
 button{
-    width: 120px;
+    width: 35%;
     justify-self: center;
     background-color: var(--accent1-color);
+    font-style: italic;
 }
 
 button:hover{
     background-color: var(--primary-color);
-    color:var(--accent2-color)
+    color:var(--accent2-color);
 }
 
 footer {
