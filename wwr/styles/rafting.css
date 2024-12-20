@@ -72,6 +72,12 @@ h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
+h4{
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+}
 
 p{
     font-family: var(--text-font);
@@ -165,12 +171,6 @@ figure {
     max-width: 220px;
     margin: auto;
 }
-
-      
-/* img {
-    max-width: 220px;
-    max-height: 150px;
-} */
       
 figcaption {
     background-color: var(--primary-color);
@@ -179,6 +179,26 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
+
+/* trips table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: var(--accent2-color);
+  }
+
+  
+td, th {
+border: 3px solid var(--primary-color);
+text-align: left;
+padding: 8px;
+background-color: var(--accent1-color);
+color: var(--primary-color)
+}
+
+tr {
+background-color: var(--accent2-color);
+} 
 
 /* CLASS SELECTORS*/
 .hero {
@@ -224,6 +244,30 @@ figcaption {
     background: radial-gradient(#eee, var(--secondary-color));
 }
 
+/* w6 home page */
+.hero2 {
+    background-color: var(--secondary-color);
+    position: relative;
+    margin: 10px auto;
+    max-width: 600px;
+    background-size: 50%
+}
+
+.hero2 img {
+    /* display: block; */
+    width: 700px;
+    height: auto;
+}
+
+.hero2 h1 {
+    position: absolute;
+    vertical-align: middle;
+    bottom: 3%;
+    right: 1px;
+    width: 75%;
+    color: var(--primary-color);
+    background: radial-gradient(#eee, var(--secondary-color));
+}
 /* w4 additions*/
 
 .logo img {
@@ -271,6 +315,46 @@ figcaption {
     padding: 5px;
 }
 
+.flexbox-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+    font-size: 18px;
+    gap: 5px;
+
+}
+.flexbox-item2 {
+    background-color: var(--secondary-color);
+}
+
+.flexbox-item2 p{
+    color: var(--accent1-color);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 210px 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    border: 1rem solid var(--primary-color);
+    margin-left: 10px;
+
+}
+.grid-item{
+    background-color: var(--secondary-color);
+    gap: 7px;
+    padding: 5px;
+    text-align: left;
+    align-self: center;
+    font-size: 20px;
+}
+.grid-item p{
+    color: var(--accent1-color);
+
+}
+
+
 /* week 5 additions */
 .form1{
     display: grid;
@@ -296,6 +380,46 @@ figcaption {
     justify-self:center;
     margin: .5rem;
 }
+
+.triplink{
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    border: 0.5rem solid var(--primary-color);
+    margin: 15px;
+    font-size: 36px;
+}
+
+
+.trips {
+
+    background-color: var(--secondary-color);
+    position: relative;
+    margin: 10px auto;
+    max-width: 600px;
+    background-size: 50%
+
+}
+
+
+
+.tripsimage {
+
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.trips article {
+
+    position: absolute;
+    width: 60%;
+    bottom: 2%;
+    right: 5px;
+
+}
+
+
+
 
 /* fonts for wwr*/
 .roboto-thin {
