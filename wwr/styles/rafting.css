@@ -30,7 +30,7 @@
 
 
 h1 {
-    background-color: var(--heading-background-color);
+    background-color: var(--secondary-color);
     color: var(--heading-text-color);
     padding: var(--padding);
 }
