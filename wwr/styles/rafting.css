@@ -71,6 +71,7 @@ header, footer{
 h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
+    font-style: italic;
 }
 h4{
     font-family: var(--heading-font);
@@ -160,7 +161,6 @@ footer nav a {
     position: relative;
     grid-column: 3/4;
 }
-
 
 
 figure {
@@ -387,6 +387,8 @@ background-color: var(--accent2-color);
     border: 0.5rem solid var(--primary-color);
     margin: 15px;
     font-size: 36px;
+    font-style: italic;
+    text-decoration: none;
 }
 
 
